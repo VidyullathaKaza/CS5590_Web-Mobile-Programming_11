@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<input type="text" value = "Display result here" id="Vidyullatha Kaza">
+<script>
+
+    //We used two variables userChoice and computerChoice
+    //userChoice will enter their choice among paper, scissor & rock
+    //computerChoice will be automatically generated
+    var userChoice = prompt("Choose anyone rock, paper or scissor?");
+   // Math.random()function is used to return a floating-point pseudo-random number between range [0,1) , 0 (inclusive) and 1 (exclusive)
+    var computerChoice = Math.random();
+    //If the computer choice is less than 0.34 then the choice is rock.
+    if (computerChoice <0.34){
+        computerChoice = "rock";
+        //If computer choice is >=0.34 and <=0.67 then the choice is paper.
+    }else if(computerChoice <=0.67){
+        computerChoice = "paper";
+    }
+    //If computer choice is >0.67 then the choice is scissor.
+    else{
+        computerChoice = "scissor";
+    }
+
+    //choice1 is the choice that is choosen by the user
+    //choice2 is the choice that is choosen by the computer
+    var compare = function(choice1,choice2){
+        if(choice1===choice2){
+            return "The result is a tie!";
+        }
+        if(choice1==="rock"){
+            if(choice2==="scissor"){
+                return "rock wins";
+            }
+            else{
+                return "paper wins";
+            }
+        }
+        if(choice1==="paper"){
+            if(choice2==="rock"){
+                return "paper wins";
+            }
+            else{
+                return "scissor wins";
+            }
+        }
+        if(choice1==="scissor"){
+            if(choice2==="rock"){
+                return "rock wins";
+            }
+            else{
+                return "scissor wins";
+            }
+        }
+    };
+    var result = (compare(userChoice,computerChoice));
+    document.getElementById("Vidyullatha Kaza").value = result;
+
+</script>
+
+</body>
+</html>
