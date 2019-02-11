@@ -47,12 +47,15 @@ $(document).ready(function(){
     $('#add-to-favorite').click( function(){
         color = document.getElementById("color").value;
         colors.push(color);
+        //After clicking Add to favorite clearing the text input
         $('#color').val("");
+        // Setting back the focus of the cursor
         $('#color').focus();
         // $( ".grid-container" ).append( "<div class="grid-item"></div>" );
         // after()
+        // adding the div tag to .grid container class
         $(".grid-container" ).append(" <div class=\"grid-item\"></div>");
-
+        // adding background color to the new div created
         $( ".grid-item" ).last().css( "background-color", color );
     });
 //3.Write events handlers such that whenever any item in the favorite colors is clicked or hovered, the color gets displayed in the preview div
