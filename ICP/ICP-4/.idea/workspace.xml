@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1eb25660-9706-4ad2-b0d1-f1f4a303f181" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../ICP-3/Github User Finder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../ICP-3/Github User Finder/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="1eb25660-9706-4ad2-b0d1-f1f4a303f181" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -130,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="width" value="1365" />
     <option name="height" value="727" />
   </component>
@@ -239,15 +237,15 @@
       <option name="presentableId" value="Default" />
       <updated>1528949232812</updated>
       <workItem from="1528949234078" duration="21773000" />
-      <workItem from="1550335327031" duration="10882000" />
+      <workItem from="1550335327031" duration="10913000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32655000" />
+    <option name="totallyTimeSpent" value="32686000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24917382" />
